@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" role="img" aria-label="Cortex and Kinetic Physiotherapy and Rehabilitation Clinic">
+  <defs>
+    <!-- Kinetic = movement/energy -> warm coral-orange gradient -->
+    <linearGradient id="coralGradL" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb088"/>
+      <stop offset="55%" stop-color="#f4703a"/>
+      <stop offset="100%" stop-color="#c7441c"/>
+    </linearGradient>
+    <!-- Cortex = neuro/cognition -> cool teal gradient -->
+    <linearGradient id="tealGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7fe8d9"/>
+      <stop offset="55%" stop-color="#1fa89a"/>
+      <stop offset="100%" stop-color="#0d6b63"/>
+    </linearGradient>
+    <!-- the ring blends both halves of the brand, coral at bottom-left into teal at top-right -->
+    <linearGradient id="ringGradL" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#f4703a"/>
+      <stop offset="50%" stop-color="#e2b23f"/>
+      <stop offset="100%" stop-color="#1fa89a"/>
+    </linearGradient>
+    <linearGradient id="navyGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#20293b"/>
+      <stop offset="100%" stop-color="#0c1220"/>
+    </linearGradient>
+    <!-- bridge: carries both brand colors, coral into teal -->
+    <linearGradient id="bridgeGradL" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4703a"/>
+      <stop offset="100%" stop-color="#7fe8d9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon mark, reused from logo-icon.svg -->
+  <g>
+    <circle cx="60" cy="60" r="58" fill="url(#navyGradL)"/>
+    <circle cx="60" cy="60" r="55" fill="none" stroke="url(#ringGradL)" stroke-width="2.5"/>
+    <g fill="url(#coralGradL)">
+      <rect x="24" y="70" width="9" height="20" rx="2"/>
+      <rect x="36" y="58" width="9" height="32" rx="2"/>
+      <rect x="48" y="44" width="9" height="46" rx="2"/>
+    </g>
+    <path d="M53 44 L78 30" fill="none" stroke="url(#bridgeGradL)" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+    <g stroke="url(#tealGradL)" stroke-width="1.6" fill="none" opacity="0.95">
+      <line x1="78" y1="30" x2="92" y2="42"/>
+      <line x1="92" y1="42" x2="84" y2="56"/>
+      <line x1="84" y1="56" x2="96" y2="66"/>
+      <line x1="78" y1="30" x2="84" y2="56"/>
+    </g>
+    <g fill="url(#tealGradL)">
+      <circle cx="78" cy="30" r="4.5"/>
+      <circle cx="92" cy="42" r="3.4"/>
+      <circle cx="84" cy="56" r="3.4"/>
+      <circle cx="96" cy="66" r="2.8"/>
+    </g>
+  </g>
+
+  <!-- wordmark: CORTEX in teal (neuro half), & KINETIC in coral (movement half) -->
+  <text x="134" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">
+    <tspan fill="#0d6b63">CORTEX</tspan><tspan fill="#c7441c"> &amp; KINETIC</tspan>
+  </text>
+  <text x="136" y="86" font-family="Arial, sans-serif" font-size="14" letter-spacing="1" fill="#555">PHYSIOTHERAPY AND REHABILITATION CLINIC</text>
+</svg>
