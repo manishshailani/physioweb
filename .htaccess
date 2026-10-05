@@ -1,0 +1,4 @@
+# Deny direct web access to the project root. The document root for the
+# virtual host must point at /public (see docs/INSTALL.md) so this file is
+# a defense-in-depth fallback for misconfigured hosting where it does not.
+Require all denied

@@ -1,0 +1,28 @@
+:root {
+  /* Cortex & Kinetic brand palette, taken from the clinic's own logo/signage: charcoal + gold. */
+  --pw-primary: #c07f1f;
+  --pw-primary-dark: #8a5a12;
+  --pw-dark: #2b2b2b;
+  --pw-accent: #e8a33d;
+  --pw-bg-soft: #f7f5f1;
+}
+body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; color: #26312f; }
+.navbar-brand { color: var(--pw-primary) !important; }
+.btn-primary { background-color: var(--pw-primary); border-color: var(--pw-primary); }
+.btn-primary:hover { background-color: var(--pw-primary-dark); border-color: var(--pw-primary-dark); }
+.text-primary { color: var(--pw-primary) !important; }
+.bg-soft { background-color: var(--pw-bg-soft); }
+.hero { background: linear-gradient(135deg, #3a3a3a 0%, #1c1c1c 100%); color: #fff; padding: 5rem 0; }
+.hero h1 { font-weight: 700; color: var(--pw-accent); }
+.hero .btn-light { color: var(--pw-dark) !important; }
+.service-card, .team-card, .blog-card { border: none; border-radius: 0.75rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: transform .15s ease, box-shadow .15s ease; height: 100%; }
+.service-card:hover, .team-card:hover, .blog-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+.badge-fee { background-color: var(--pw-accent); color: #1a1a1a; }
+.stat-card { border-radius: 0.75rem; }
+.testimonial-card { border-left: 4px solid var(--pw-primary); background: #fff; border-radius: 0.5rem; }
+footer a { text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+.gallery-thumb { border-radius: 0.5rem; overflow: hidden; aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.admin-sidebar { background: var(--pw-primary-dark); min-height: 100vh; }
+.admin-sidebar .nav-link { color: #d7eceb; }
+.admin-sidebar .nav-link.active, .admin-sidebar .nav-link:hover { color: #fff; background: rgba(255,255,255,0.08); border-radius: .375rem; }

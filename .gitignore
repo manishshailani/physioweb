@@ -1,0 +1,18 @@
+/vendor/
+/.env
+/storage/logs/*.log
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/uploads/**/*
+!/storage/uploads/**/.gitkeep
+/public/uploads/**/*
+!/public/uploads/**/.gitkeep
+.DS_Store
+*.swp
+/node_modules/
+/tests/tmp/
+
+# One-off demo-data seeder + its generated SQLite DB (used only to produce
+# screenshots/a static preview during development; not part of the app --
+# see database/demo_data/seed_demo.php's own header comment).
+/database/demo_data/
